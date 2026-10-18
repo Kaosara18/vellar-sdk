@@ -669,3 +669,14 @@ that have no common unit — the cheaper-looking option wins by accident of magn
 Replace the `reduce` in `selectRequirements` (src/x402-guards.ts:142-144) with
 `selectWithAssetPreference` when candidates span multiple assets, or add an optional
 `preferredAssets` field to `X402PayOptions`.
+
+---
+
+## 19. Workspace Publish Integrity (#619, #620, #621, #622)
+
+The executable proposal in
+[contrib/workspace-publish-integrity/](workspace-publish-integrity/README.md)
+adds contributor-safe reference checks for public SDK imports, coordinated
+breaking releases, workspace-local SDK resolution, and isolated workspace
+package installation. Root scripts, CI wiring, and `CONTRIBUTING.md` updates are
+documented for maintainers and intentionally remain outside this contribution.

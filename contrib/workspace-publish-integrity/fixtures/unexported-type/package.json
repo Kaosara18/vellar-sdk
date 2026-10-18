@@ -1,0 +1,9 @@
+{
+  "name": "vellar-sdk",
+  "version": "1.0.0",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts"
+    }
+  }
+}
